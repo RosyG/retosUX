@@ -45,3 +45,23 @@ El ***dashboard*** es una herramienta utilizada por profesores, training manager
 * Promedio de notas técnicas.
 
 Además, dado que Laboratoria tiene muchas generaciones, regularmente 2 generaciones por año (estas generaciones empezaron en el 2014), y que opera en 4 sedes (Arequipa, Ciudad de México, Lima y Santiago de Chile), es posible que los usuarios quieran ver datos de sedes / generaciones anteriores para poder hacer comparaciones.
+
+Para que se pueda visualizar los avances en las distintas generaciones y en las cuatro sedes en las que opera ___Laboratoria___  se ha diseñado el siguiente diagrama con los accesos necesarios:
+![Principa del Dashboard](images/General.png)
+
+En la anterior imagen se muestra la página principal del ***Dashboard*** en este se muestran dos gráficos el primero es tipo pastel y da a conocer cual es el número de deserción _general_ de Laboratoria, así como la cantidad de chicas que se han preparado conforme a lo esperado, es decir que han cumplido con el mínimo del promedio.
+Para cada sede y generación se mostraran los mismos gráficos ya que en la página principal se mostraran los datos en gráficos pero de manera global.
+
+## Explicación de cada gráfico mostrado.
+1. En el gráfico siguente se muentran curvas de los promedios en Habilidades Socio Emocionales (HSE), retos de código terminados por las alumnas y el promedio de la evaluación técnica; esos tres elemntos en función de cada sprint.
+![Principa del Dashboard](images/grafico1.png)
+También se puede notar una línea punteada, la cual indica el promedio de 90% que serian las chicas que han quedado exoneradas del pago mensual de $250.00 MXN, la línea sólida roja muestra el primedio de las chicas que han sobrepasado el promedio mínimo que __Laboratoria__ espera tener de sus alumnas.
+
+2. En el gráfico siguiente se muestra un gráfico de barras en el que se muestra en # de alumnas que permanecen incritas desde el sprint 1 y se hace la comparativa con el número de alumnas que hayan ido desertando conforme avanza cada sprint.
+![Principa del Dashboard](images/grafico3.png)
+El gráfico anterior es de gran utilidad para saber en que sprint hay más deserción, sabiendo el sprint de mayor deserción se puede visualizar en el gráfico del punto 1, en cual de las evaluaciones (el promedio de las chicas) batalla para promediar a una calificación mínima, es entonces donde se pueden tomar desiciones en la forma de evaluar o de la dificultad por sí sola del contenido.
+
+## Sketch para una sede con distintas generaciones
+Como se explico anteriormente para cada sede se visualizará el mismo diseño para expresar con datos lo que pasa en el salón de clases.
+A continuación se muestra la infomación especificamente de la sede de Arequipa con sus respectivas generaciones.
+![Datos especificos del Dashboard del Dashboard](images/especifico.png)
